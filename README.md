@@ -1,10 +1,10 @@
 # bugtracker
 
-I will try to make a bugtracker following these 6 must haves:
+I will try to make a bugtracker following these 5 must haves:
 
 1. SRS-software requirements specifications
-2. Design pattern
+2. Design pattern-MVC
 3. Clean UI/UX
-4. CRUD functionality
-5. Authentication/Authorization
-6. Database
+4. Database-CRUD functionality
+5. Authentication/Authorization-Auth0
+
