@@ -1,0 +1,61 @@
+
+
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: left;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.form-control{
+    width: 30%;
+    background-color: white;
+    border: 3px solid hsl(240, 1%, 76%);
+}
+
+.hero-unit{
+    justify-content: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 4%;
+}
+
+.hero-unit h1{
+    font-size: 470%;
+}
+
+.hero-unit p{
+    font-size: 250%;
+}
+
+.btn-primary{
+    margin-top: 2%;
+    background-color: rgb(43, 43, 43);
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: rgb(75, 75, 75);
+    border: none;
+}
+
+.form-text a{
+    color: rgb(43, 43, 43);
+}
+
+.bug{
+    position: absolute;
+    top: 10;
+    right: 0;
+}
+
+.bug img{
+    width: auto;
+    height: 100%;
+    transform: rotate(120deg);
+}
+
+    /* Layout for tablets and larger smartphones */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
