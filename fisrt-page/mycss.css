@@ -45,7 +45,6 @@
 
 .bug{
     position: absolute;
-    top: 10;
     right: 0;
 }
 
@@ -57,5 +56,11 @@
 
     /* Layout for tablets and larger smartphones */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .bug img{
+        width: auto;
+        height: 70%;
+        transform: rotate(120deg);
+        margin-left: 25%;
+    }
     
 }
